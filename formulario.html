@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form style="border-width: 2px;border-color: black; border-style: solid;">
+                    <div class="form-group" style="text-align: center;">
+                        <p>Full name <br><input style="margin-left: 10%; width: 80%;" class="form-control" type="text"></p>
+                        <p><label for="email">Email:</label> <br><input style="margin-left: 10%; width: 80%;" class="form-control" name="email" type="email">
+                        </p>
+
+
+
+
+
+                        <!-- ESTOY INTENTANDOLO HACER PERO ME DA ERROR, NO ME DESPLIEGA EL MENU
+
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown-menu">
+                                Marital Status:
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Single</a>
+                                <a class="dropdown-item" href="#">Married</a>
+                                <a class="dropdown-item" href="#">Widower</a>
+                                <a class="dropdown-item" href="#">Divorced</a>
+                            </div>
+                        </div>
+                        -->
+
+                        <select name="Marital Status">
+                            <option value="S">Single</option>
+                            <option value="C">Married</option>
+                            <option value="W">Widower</option>
+                            <option value="D">Divorced</option>
+                        </select>
+
+                        <p> Message <br> <textarea value=message style="margin-left: 10%; width: 80%;" class="form-control"></textarea></p> <br>
+                        <input  class="btn btn-default" type="reset" value=Reset>
+                    <input class="btn btn-default" type="submit" value=Submit>
+                    <p>Subscribe to Newsletter?<input type="checkbox" name="accept" value="1"> </p>
+                    </div>
+                    
+
+                </form>
+            </div>
+            <div class="col-md-2 "></div>
+        </div>
+    </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,371 @@
+
+@font-face{
+    font-family: textabout;
+    src: url(fonts/textabout.ttf);
+    }
+    @font-face{
+        font-family: letra2;
+        src: url(fonts/letra2.ttf);
+    }
+    
+    @font-face{
+        font-family: homemade;
+        src: url(fonts/homemade.ttf);
+    }
+
+    $ligthgray: #d9d7d8;
+    $darkgray: #818c8a;
+    $ligthpink: #d4c4c7;
+    $width: 300px;
+    $black: black;
+    $white: white;
+    $yellow: #bfaa6b;
+    $orange: orange;
+    $brown: #40322f; 
+    $ligthblue: #5d8c8c;
+
+    
+    body {
+        background-color:$ligthgray ;
+    }
+    
+    .titlesprincipales {
+        width: 98.5%;
+        text-align: center;
+        color: $white;
+        background-color: $yellow;
+        font-size: 300%;
+        text-align: center;
+        position: relative;
+        font-family: lemonmilk;
+        transform: skewX(-10deg);
+        opacity: 0.70;
+        left: 2%;
+        span {
+    
+            color:$darkgray ;
+            text-decoration: underline;
+            font-family: letra2;
+        }   
+    
+    }
+    
+    .orange {
+    
+        color: $orange;
+        font-style: italic;
+    }
+    
+    .underline {
+    
+        text-decoration: underline;
+    }
+    
+    #upperSector {
+        padding: 1rem;
+        background-image: url("../imagenes/banner.png");
+        float: center;
+        margin: none;
+        padding-bottom: 12%;
+        
+        .upperSector__topBarOrganization {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .upperSector__topBarOrganization__enlace {
+            width: 200px;
+            height: 100px;
+            background-image: url("../imagenes/teclas.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .upperSector__topBarOrganization__enlace:hover {
+            transform: scale(1.01)
+        }
+        
+        .upperSector__topBarOrganization__enlace--texto {
+            color:$black;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+    
+    }
+    
+    #logo {
+        float: left;
+        position: relative;
+        z-index: 12;
+        top: 7%;
+        left: 1%;
+        
+    
+    }
+    
+    .containerWithGradient {
+        background-image: linear-gradient(to left, $ligthgray, $ligthgray, $ligthgray, $ligthpink);
+    }
+    
+    #imagenyform {
+        
+        size: 100%;
+        text-align: center; 
+        
+    }
+    
+    
+    
+    #aboutMe {
+        
+        text-align: center;
+        border: 02px solid $black;
+        margin-left: 1rem;
+        padding: 1rem;
+        background-image: linear-gradient(to left,   $darkgray, $darkgray ,$darkgray ,$darkgray);
+        padding-bottom: 10%;
+        float: center;
+
+       
+
+            .aboutMe__paragraphs {
+                font-family: textabout;
+                color: $black;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 27px;
+                position: relative;
+                bottom: -50px;
+            
+        
+        
+             }
+    
+    }
+    
+    .copy {
+    
+        text-align: left;
+    }
+    
+    
+    .tulook {
+        text-align: center;
+    
+    }
+    
+    .followme {
+        
+        float: right;
+        position: relative;
+        bottom: -150px;
+        right: 30px;
+       
+    }
+    
+   
+
+    #texttitles {
+    
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        font-family: lemon milk;
+        text-align: center;
+        color: $black;
+        font-size: 300%;
+        position: relative;
+        padding-bottom: 04%;
+    
+    
+    }
+
+    #segtitles{
+        
+            -webkit-text-stroke: 2px black;
+            color: $white; 
+            font-family: sans-serif;
+            text-align: center;
+    }
+    
+    .animacion {
+        background-color: $ligthgray ;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .contactme {
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: auto;
+        top: -275px;
+        text-align: top;
+        width: 200px;
+        height: 100px;
+        margin-left: 55%;
+    
+    
+    }
+    
+    
+    .copy {
+    
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: $width;
+        height: 100px;
+        bottom: -320px;
+        left: 30px;
+        
+    
+    
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: $width;
+    }
+    
+    .portfolio {
+        position: relative;
+        padding-top: 7%;
+        bottom: 30px;
+    }
+
+    .tiger{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 5%;
+        justify-content: space-around;
+        justify-content: center;
+        border: 02px solid $black;
+        
+    } 
+    
+   .imagenLogo{
+    width: 45%;
+    height: 45%;
+    border: 02px solid $black;
+
+   }
+   .banner{
+       
+       align-content: center;
+       width: 100%;
+   }
+
+   .webfooter{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+   
+   }
+ 
+
+   .imagenCenter {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #344859;
+    border: 02px solid $black;
+
+   }
+.services1{
+
+    background-color: $ligthpink;
+    width: 600px;
+    height:291px ;
+}
+
+.services2{
+
+    background-color: $white;
+    width: 600px;
+    height:299px ;
+}
+.services3{
+
+    background-color: $ligthblue;
+    width: 600px;
+    height:290px ;
+}
+.services4{
+
+    background-color: $white;
+    width: 590px;
+    height:337px ;
+}
+
+.imaBanner{
+    width: 590px;
+    height:292px ;
+}
+
+.wayRight{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    top: 12px;
+   
+}
+
+.wayLeft{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 1190px;
+   
+}
+
+#imaBannerheig{
+
+    height:340px ;
+}
+
+.together{
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    
+
+}
+.texto1{
+    position: absolute;
+
+    top: 40%;
+    left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: $black;
+}
+.caja1{
+    
+    position: relative;
+    display: inline-block;
+}
+.fot{
+    background-color: $white;
+    height: 360px;
+    width: 100%;
+}
